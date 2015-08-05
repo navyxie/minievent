@@ -1,4 +1,4 @@
-var miniEmit = require('../lib/index');
+var miniEmit = require('../lib/minievent');
 var should = require('should');
 describe('index',function(){
 	function test(){}
