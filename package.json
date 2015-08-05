@@ -1,6 +1,6 @@
 {
   "name": "minievent",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "观察者模式，继承，事件扩展工具库",
   "main": "index.js",
   "scripts": {
