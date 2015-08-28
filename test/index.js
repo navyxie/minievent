@@ -27,5 +27,14 @@ describe('index',function(){
 			done(err);
 		});
 		test3.emit('addName',null,{name:'navy3'});
+	});
+	it('should be ok',function(done){
+		var test4 = {};
+		miniEmit(test4);
+		test4.on('addName',function(data){
+			data.should.have.property('name','navy3');
+			done();
+		});
+		test4.emit('addName',{name:'navy3'});
 	})
 })
